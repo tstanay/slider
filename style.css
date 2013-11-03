@@ -1,0 +1,83 @@
+body{
+	margin: 0;
+	font: 16px/32px 'Open Sans', sans-serif;
+	color: #042137;
+	background: #fff;
+}
+ 
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+ 
+img{
+	border-style: none;
+	vertical-align: top;
+}
+ul{
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	outline: none !important;
+}
+a:hover{
+	text-decoration: none;
+}
+address{
+	font-style: normal;
+	padding: 0;
+}
+dl, dd{
+	margin:0;
+}
+p, h1, h2{
+	margin:0;
+}
+h2{
+	font-size: 18px;
+	color: #0d2e47;
+	margin: 0 0 18px 0;
+	text-align: center;
+}
+form,
+fieldset{
+	 margin:0;
+	 padding:0;
+	 border-style:none;
+}
+.container{
+	width: 980px;
+	margin: 0 auto;
+	
+}
+.slider{
+	position: relative;
+	margin: 0 0 30px 0;
+	height: 404px;
+	overflow: hidden;
+}
+ 
+.slider img{
+	width: 100%;
+	/* position: absolute; */
+}
+ 
+.prev, .next{
+	position: absolute;
+	top: 50%;
+}
+.prev{
+  left: 40px;
+  background: url(http://www.iconsearch.ru/uploads/icons/nuove/128x128/back.png) no-repeat center;
+  width: 128px;
+height: 128px;
+}
+
+.next{
+	right: 40px;
+	background: url(http://www.iconsearch.ru/uploads/icons/nuove/128x128/next.png) no-repeat center;
+	width: 128px;
+	height: 128px;
+}
